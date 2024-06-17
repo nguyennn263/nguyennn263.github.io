@@ -19,7 +19,7 @@ title: nguyennn263 # the main title
 tagline: My personal blog # it will display as the sub-title
 
 description: >- # used by seo meta and the atom feed
-  .
+  Personal blog for base knowledge in Machine Learning and Data Science.
 
 # Fill in the protocol & hostname for your site.
 # e.g. 'https://username.github.io', note that it does not end with a '/'.
@@ -28,8 +28,8 @@ url: 'https://nguyennn263.github.io'
 github:
   username: nguyennn263 # change to your github username
 
-twitter:
-  username: twitter_username # change to your twitter username
+# twitter:
+#   username: twitter_username # change to your twitter username
 
 social:
   # Change to your full name.
@@ -38,10 +38,10 @@ social:
   email: ntquoc2603@gmail.com # change to your email address
   links:
     # The first element serves as the copyright owner's link
-    - https://twitter.com/username # change to your twitter homepage
+    # - https://twitter.com/username # change to your twitter homepage
     - https://github.com/nguyenn263 # change to your github homepage
     # Uncomment below to add more social links
-    # - https://www.facebook.com/username
+    # - https://www.facebook.com/nguyenn263
     # - https://www.linkedin.com/in/username
 
 # Site Verification Settings
@@ -96,7 +96,7 @@ theme_mode: # [light | dark]
 cdn:
 
 # the avatar on sidebar, support local or CORS resources
-avatar:
+avatar: "./assets/img/avatar/avatar.jpg"
 
 # The URL of the site-wide social preview image used in SEO `og:image` meta tag.
 # It can be overridden by a customized `page.image` in front matter.
