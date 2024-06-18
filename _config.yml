@@ -119,8 +119,8 @@ comments:
   giscus:
     repo: nguyennn263/nguyennn263.github.io
     repo_id: R_kgDOMKdM1Q
-    category:
-    category_id:
+    category: "General"
+    category_id: "DIC_kwDOMKdM1c4CgLOc"
     mapping: # optional, default to 'pathname'
     strict: # optional, default to '0'
     input_position: "top" # optional, default to 'bottom'
