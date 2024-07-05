@@ -3,8 +3,6 @@ title: Markov chain
 date: 2024-07-05
 categories: [Knowledge]
 tags: [machine_learning, probability, markov_chain, markov_process]
-math: true
-published: true
 description:  Markov chain 
 media_subpath: /assets/markov-chain/
 image:
