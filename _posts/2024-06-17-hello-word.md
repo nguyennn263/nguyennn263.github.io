@@ -2,7 +2,7 @@
 title: "Introduction to Machine Learning: A Personal Journey"
 date: 2024-06-17
 media_subpath: ./posts/hello-word/img
-categories: [Machine Learning]
+categories: [Knowledge]
 tags: [machine_learning]
 description:  My first blog post in this website.
 ---
