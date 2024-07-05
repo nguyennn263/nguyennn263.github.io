@@ -4,6 +4,8 @@ date: 2024-07-05
 categories: [Knowledge]
 tags: [machine_learning, probability, markov_chain, markov_process]
 description:  Markov chain 
+math: true
+published: true
 media_subpath: /assets/markov-chain/
 image:
     path: alt-img.png
