@@ -19,7 +19,7 @@ image:
 
 Trong bài viết này, ta sẽ tìm hiểu về xích Markov (Markov chain).
 
-<a name="-bai-toan"></a>
+<!-- <a name="-bai-toan"></a> -->
 
 ## 1. Phát biểu bài toán
 Trong một khu vực 1000 người, có 2 cửa hàng bán cùng bán một loại sản phẩm. Người ta thống kê được số liệu ban đầu như sau: 800 người mua hàng ở cửa hàng A, 200 người mua hàng ở cửa hàng B. Sau 1 thời gian cạnh tranh, quảng cáo, khuyến mại,... để thu hút khách hàng của 2 cửa hàng, người ta thống kê lại thì thấy xuất hiện những tình huống sau:
@@ -37,7 +37,7 @@ _Sự thay đổi trạng thái theo thời gian(tương tự với S1)_
 ![Lược đồ minh hoạ](minh-hoa.png)
 _Lược đồ minh hoạ_
 
-<a name="-dinh-nghia"></a>
+<!-- <a name="-dinh-nghia"></a> -->
 
 ## 2. Định nghĩa xích Markov
 ### 2.1. Không gian trạng thái
@@ -67,7 +67,7 @@ p_{ij} = P(X_1 = j|X_0 = i) = P(X_2 = j|X_1 = i) = P(X_3 = j|X_2 = i) = ...
 \end{equation}
 $$
 
-<a name="-ma-tran-chuyen-trang-thai-va-luoc-do"></a>
+<!-- <a name="-ma-tran-chuyen-trang-thai-va-luoc-do"></a> -->
 
 ## 3. Ma trận chuyển trạng thái và lược đồ
 Giả sử tập trạng thái $S = \set{1, 2, 3, . . . ,r}$, $p_{ij} = P(X_{n+1} = j \| X_n = i)$, khi đó ma trận:
@@ -86,7 +86,7 @@ $$
 **Lưu ý** 
 - Ta luôn có $p_{ij} >= 0$ với mọi $i$ và $\sum_{k = 1}^{r} p_{ik} = \sum_{k = 1}^{r} P(X_{n+1} = k\|X_n = i) = 1$ 
 
-<a name="-phan-phoi-xac-xuat"></a>
+<!-- <a name="-phan-phoi-xac-xuat"></a> -->
 
 ## 4. Phân phối xác xuất trạng thái
 ### 4.1. Xác suất chuyển sau n bước
@@ -129,7 +129,7 @@ $$
 $$
 
 
-<a name="-minh-hoa"></a>
+<!-- <a name="-minh-hoa"></a> -->
 
 ## 5. Minh hoạ 1 quá trình Markov
 Bài toán mở đầu chính là bài toán mô hình phân chia thị trường với số lượng cửa hàng là 2. 
@@ -164,7 +164,7 @@ Dự báo phân chia thị trường cho tương lai:
 - Trong tháng Tư thì thị trường sẽ như thế nào? hay phân phối xác suất của từng cửa hàng là bao nhiêu?
 - Một năm sau thị trường như thế nào?...
 
-<a name="-tong-ket"></a>
+<!-- <a name="-tong-ket"></a> -->
 
 ## 6. Tổng kết
 Bài viết trên chỉ nói sơ lược về Markov chain. Ở bài viết sau, chúng ta sẽ nói rõ thêm và có 1 vài bài tập nhỏ code bằng python.
