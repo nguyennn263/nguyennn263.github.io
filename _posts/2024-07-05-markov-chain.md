@@ -10,12 +10,12 @@ image:
 ---
 
 ### Nội dung
-- [1. Phát biểu bài toán](#-bai-toan)
-- [2. Định nghĩa xích Markov](#-dinh-nghia)
-- [3. Ma trận chuyển trạng thái và lược đồ](#-ma-tran-chuyen-trang-thai-va-luoc-do)
-- [4. Phân phối xác xuất](#-phan-phoi-xac-xuat)
-- [5. Minh hoạ 1 quá trình Markov](#-minh-hoa)
-- [6. Tổng kết](#-tong-ket)
+- [1. Phát biểu bài toán](#-Phat-bieu-bai-toan)
+- [2. Định nghĩa xích Markov](#-Dinh-nghia-xich-Markov)
+- [3. Ma trận chuyển trạng thái và lược đồ](#-Ma-tran-chuyen-trang-thai-va-luoc-do)
+- [4. Phân phối xác xuất](#-Phan-phoi-xac-xuat)
+- [5. Minh hoạ 1 quá trình Markov](#-Minh-hoa-1-qua-trinh-Markov)
+- [6. Tổng kết](#-Tong-ket)
 
 Trong bài viết này, ta sẽ tìm hiểu về xích Markov (Markov chain).
 
