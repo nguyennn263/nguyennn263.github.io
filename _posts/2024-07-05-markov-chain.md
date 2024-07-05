@@ -28,6 +28,7 @@ In an area with 1,000 people, there are 2 stores that sell the same type of prod
 - The probability that a person who previously bought from store A now buys from store B is $p_{12}$
 - The probability that a person who previously bought from store B now buys from store A is $p_{21}$
 - The probability that a person who previously bought from store B still buys from store B is $p_{22}$
+
 **Question**: After 3 months, 6 months,..., $n$ months later, what will be the proportion of people buying from each store?
 
 ![The change in state over time(similar to S1)](phat-bieu.png)
@@ -38,7 +39,7 @@ _Illustrative diagram_
 
 <!-- <a name="-Dinh-nghia-xich-Markov"></a> -->
 ## 2. Definition of Markov chain
-### 2.1. Không gian trạng thái
+### 2.1. State space
 
 
 For a random process $\set{X_n, n = 0, 1, 2, ...}$, the set $S$ consisting of all possible values of the sequence of random variables $(X_n, n = 0, 1, 2,...)$ which is call **state space** of the random process $(X_n)_n$.
@@ -79,7 +80,6 @@ p_{r1} & p_{r2} & \cdots & p_{rr}
 $$
 
 is called Transition matrix after **one** step.
-được gọi là ma trận xác suất chuyển sau **một** bước.
 
 **Note** 
 - We always have $p_{ij} >= 0$ for all $i$ and $\sum_{k = 1}^{r} p_{ik} = \sum_{k = 1}^{r} P(X_{n+1} = k\|X_n = i) = 1$ 
