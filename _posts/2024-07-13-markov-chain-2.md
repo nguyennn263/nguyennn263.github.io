@@ -17,7 +17,7 @@ To continue this <a href="https://nguyennn263.github.io/posts/markov-chain/" tar
 ## Stationary distribution 
 Given transition matrix $P$, let $\pi_j = \lim\limits_{n \to \infty}\pi P_{ij}^n$
 
-E.g: Market segmentation problem from the previous post. You can see my <a href="https://nguyennn263.github.io/posts/markov-chain/markov.ipynb" target="_blank">code</a>.
+E.g: Market segmentation problem from the previous post. You can see my <a href="https://github.com/nguyennn263/nguyennn263.github.io/blob/main/assets/markov-chain/markov.ipynb" target="_blank">code</a>.
 
 First we need to import numpy and matplotlib.
 
