@@ -1,9 +1,9 @@
 ---
-title: Markov chain 
+title: Markov chain part I
 date: 2024-07-05
 categories: [Knowledge]
 tags: [machine_learning, probability, markov_chain, markov_process]
-description:  Markov chain 
+description:  Markov chain part I
 math: true
 published: true
 media_subpath: /assets/markov-chain/
