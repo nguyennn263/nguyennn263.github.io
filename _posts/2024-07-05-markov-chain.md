@@ -160,6 +160,6 @@ Market segmentation forecast for the future:
 - How will the market look like one year from now?...
 
 <!-- <a name="-Tong-ket"></a> -->
-## 6. Conclution
+## 6. Conclusion
 This post provided a brief introduction to Markov chain. In the next article, we will explore more details on this topic and have some Python coding exercises. 
 Thanks for your reading!
