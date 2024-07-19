@@ -28,7 +28,9 @@ Let $\theta = \begin{bmatrix} \theta_0 \\ \theta_1 \end{bmatrix} $.
 Given the dataset, we have an example represented by a vector: $A_i = [1\quad a_1]$ and $b_i = [b_i]$
 so that we can have a dot product: $A_i \theta = b_i$
 
-Thus, we can build matrices and use matrix multiplication (dot product) to represent all of the equations above. Let:
+Thus, we can build matrices and use matrix multiplication (dot product) to represent all of the equations above. 
+
+Let:
 $A = 
 \begin{bmatrix} 
 1 & a_1 \\
@@ -47,12 +49,11 @@ b_n
 
 It is common that  $A \theta = b$ has no solution. The reason is that there are to many equations and a line,  represented by $\theta$, cannot fit all of the points from dataset. Let $e = |A \theta - b|$ be the error, we must minimize $e$ as much as possible to find $\theta$, which is least square solution, and the predict $\hat{b} = A\theta$. The error will be $e = |\hat{b} - b|$
 
-The format of the cost/loss fucntion is:
-$$L(\theta) = ||e||^2  = ||A\theta-b||^2_2$$
+The format of the cost/loss fucntion is: $L(\theta) = ||e||^2  = ||A\theta-b||^2_2$
+
 
 The notation $||x||_2$ is the Euclidean norm. The loss function above represents the distance between vector $\hat{b} $ and $b$. Therefore, the loss fucntion is defined by the sum of square error:
-
-$$L(\theta) = \sum^m_{i=1} (a_i\theta - b_i)$$
+$L(\theta) = \sum^m_{i=1} (a_i\theta - b_i)$
 
 ## Finding the Least square solution
 Given matrix $A$ from database, we can obtain $C(A)$, the column space of A. Imagine that the column space of $A$ is a plane and vector $b$ is a point in $R_n$.
